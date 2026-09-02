@@ -1,0 +1,23 @@
+# Human-participant data: local only unless release is authorized
+data/*.h5
+
+# Notebook and Python output
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated models and plots
+checkpoints/
+models/
+outputs/
+*.keras
+*.h5.tmp
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
